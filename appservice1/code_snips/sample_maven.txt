@@ -1,0 +1,6 @@
+mvn archetype:generate '
+-DgroupId=com.microsoft.azure.samples '
+-DartifactId=azure-javaweb-app '
+-DarchetypeArtifactId=maven-archetype-webapp '
+-Dversion=1.0-SNAPSHOT '
+-DinteractiveMode=false '

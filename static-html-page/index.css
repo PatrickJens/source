@@ -1,0 +1,59 @@
+#body{
+    background-image: URL(cyberpunk_background.jpg);
+    background-size: 100vw 100vh;
+}
+
+#main_box{
+    background-color: RGBA(237, 234, 222,0.9);
+    color: RGB(255,255,255);
+    position: relative;
+    top:10vh;
+    left: 30vw;
+    /* opacity: 0.7; */
+    width: 40vw;
+    height:35vh;
+    /* margin-top: 10vh; */
+    /* margin: 20% 20% 10% 20%;  */
+    /*padding-top: 0.1%;*/
+}
+
+#main_box_ribbon{
+    color:white;
+    position: relative;
+    text-align:center;
+    font-size: 1.2vw;
+    top:3%;
+    left:2%;
+    width:94%;
+    background-color:#0d1c3dE5;
+    opacity: 1.0;
+    /* margin-top: 20%; */
+    font-family: Courier New;
+    border-radius:3px;
+    padding: 1%;
+}
+
+#ping_btn{
+    cursor: pointer;
+    background-color:RGBA(75,0,130,1);
+    color:#dad6df;
+    font-size:1.25vw;
+    font-family: Roboto;
+    font-weight: 100;
+    position: relative;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    height: 15%;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+#ping_btn:hover{
+     color:RGB(255, 355, 355);
+     transition: 0.3s;
+}
+
+#ping_btn:active{
+    background-color: RGBA(96, 0, 166,1);
+}
